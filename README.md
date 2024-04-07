@@ -17,7 +17,7 @@ Start the vulnerable go server:
 ```shell
 cd vulnerable-go-server
 docker build -t vulnerable-go-server .
-docker run -p 8000:8000 vulnerable-go-server -d
+docker run -p 8000:8000 -d vulnerable-go-server 
 ```
 
 Install the required prerequisites:
